@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-22 12:56:16 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjI7MTI6NDk6MTEgw5ZTOzI5OTQ="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjI7MTI6NTY6MTYgw5ZTOzE7MzEwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, ek" type="Integer" array="False" size=""/>
+            <input variable="s"/>
+            <assign variable="ek" expression="100"/>
+            <if expression="s&lt;ek">
+                <then>
+                    <assign variable="ek" expression="s"/>
+                </then>
+                <else/>
+            </if>
+            <input variable="s"/>
+            <if expression="s&lt;ek">
+                <then>
+                    <assign variable="ek" expression="s"/>
+                </then>
+                <else/>
+            </if>
+            <input variable="s"/>
+            <if expression="s&lt;ek">
+                <then>
+                    <assign variable="ek" expression="s"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;En k&#252;&#231;&#252;k= &quot; &amp; ek" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

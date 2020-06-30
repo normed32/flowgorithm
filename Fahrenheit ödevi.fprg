@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 01:34:41 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MzE6MzYgw5bDljszMTE4"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MzQ6NDEgw5bDljsxOzMyMjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius, fahrenheit" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen Fahrenheit giriniz &gt;&gt;&gt; &quot;" newline="True"/>
+            <input variable="fahrenheit"/>
+            <assign variable="celsius" expression="(fahrenheit-32)/1.8"/>
+            <output expression="fahrenheit &amp; &quot; &quot; &amp; &quot;Fahrenheit olan bir de&#287;er= &quot; &amp; celsius &amp; &quot; &quot; &amp; &quot;Celsius&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

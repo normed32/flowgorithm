@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 07:36:21 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDc6MzM6MzAgw5ZTOzI5ODk="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDc6MzY6MjEgw5ZTOzE7MzEwMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="kilo" type="Integer" array="False" size=""/>
+            <declare name="vki, boy" type="Real" array="False" size=""/>
+            <output expression="&quot;Boyunuzu metre cinsinden giriniz&quot;" newline="True"/>
+            <input variable="boy"/>
+            <output expression="&quot;Kilonuzu kg cinsinden giriniz&quot;" newline="True"/>
+            <input variable="kilo"/>
+            <assign variable="vki" expression="kilo/(boy*boy)"/>
+            <output expression="&quot;V&#252;cut Kitle Endeksiniz= &quot; &amp; ToFixed(vki,3)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

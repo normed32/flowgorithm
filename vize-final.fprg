@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 01:21:48 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MTg6NTUgw5bDljszMTI0"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MjE6NDggw5bDljsxOzMyMjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="adsoyad" type="String" array="False" size=""/>
+            <declare name="vizenotu, finalnotu, no" type="Integer" array="False" size=""/>
+            <declare name="yilsonunotu" type="Integer" array="False" size=""/>
+            <output expression="&quot;Ad soyad&quot;" newline="True"/>
+            <input variable="adsoyad"/>
+            <output expression="&quot;Okul no&quot;" newline="True"/>
+            <input variable="no"/>
+            <output expression="&quot;Vize gir&quot;" newline="True"/>
+            <input variable="vizenotu"/>
+            <output expression="&quot;Final gir&quot;" newline="True"/>
+            <input variable="finalnotu"/>
+            <assign variable="yilsonunotu" expression="vizenotu*0.4+finalnotu*0.6"/>
+            <output expression="yilsonunotu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

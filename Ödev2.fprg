@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-09 02:55:09 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDI6NTA6MzEgw5bDljszMTIz"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDI6NTU6MDkgw5bDljsxOzMyNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="derece" type="Integer" array="False" size=""/>
+            <declare name="grad, radyan, pisayisi" type="Real" array="False" size=""/>
+            <assign variable="pisayisi" expression="3.14"/>
+            <output expression="&quot;Bir Derece Giriniz&quot;" newline="True"/>
+            <input variable="derece"/>
+            <assign variable="radyan" expression="derece*pisayisi/180"/>
+            <assign variable="grad" expression="derece*200/180"/>
+            <output expression="derece &amp; &quot; &quot; &amp; &quot;Derece olan bir a&#231;&#305;&quot; &amp; &quot; &quot; &amp; ToFixed(radyan,3)&amp; &quot; &quot; &amp; &quot;Radyan&quot; &amp; &quot; &quot; &amp; ToFixed(grad,3) &amp; &quot; &quot;&amp; &quot;Grad&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

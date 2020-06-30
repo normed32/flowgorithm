@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 01:09:36 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MDY6MDcgw5bDljszMTE4"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MDk6MzYgw5bDljsxOzMyMzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi" type="Integer" array="False" size=""/>
+            <declare name="yuzde, yuzdelisayi" type="Real" array="False" size=""/>
+            <output expression="&quot;Say&#305; giriniz &quot;" newline="True"/>
+            <input variable="sayi"/>
+            <output expression="&quot;Say&#305;n&#305;n y&#252;zde ka&#231;&#305;n&#305; almak istersiniz &quot;" newline="True"/>
+            <input variable="yuzde"/>
+            <assign variable="yuzdelisayi" expression="sayi*yuzde/100"/>
+            <output expression="yuzdelisayi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

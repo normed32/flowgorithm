@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-29 08:50:42 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjk7MDg6NDY6NTIgw5ZTOzMwMDg="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjk7MDg6NTA6NDIgw5ZTOzI7MzExMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1" type="Integer" array="False" size=""/>
+            <output expression="&quot;Say&#305; giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <if expression="s1%6=0">
+                <then>
+                    <output expression="&quot;Say&#305; 6ya b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Say&#305; 6ya b&#246;l&#252;nmez&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

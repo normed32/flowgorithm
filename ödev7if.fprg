@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-29 06:04:25 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjk7MDU6NTM6Mjcgw5ZTOzMwMDU="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjk7MDY6MDQ6MjUgw5ZTOzE7MzEwOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s1, s2, s3" type="Integer" array="False" size=""/>
+            <output expression="&quot;1. say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s1"/>
+            <output expression="&quot;2.say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s2"/>
+            <output expression="&quot;3.say&#305;y&#305; giriniz&quot;" newline="True"/>
+            <input variable="s3"/>
+            <if expression="s1&gt;s2">
+                <then>
+                    <if expression="s1&lt;s3">
+                        <then>
+                            <output expression="s3&amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s1 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="s1 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s3 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s2" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="s1&lt;s3">
+                        <then>
+                            <output expression="s2 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s3 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s1" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="s3 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s2 &amp; &quot;b&#252;y&#252;kt&#252;r &quot; &amp; s1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

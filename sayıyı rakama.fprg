@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-26 02:41:21 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjY7MDI6MzU6NTQgw5ZTOzI5OTk="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjY7MDI6NDE6MjEgw5ZTOzE7MzA5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="rakam" type="Integer" array="False" size=""/>
+            <input variable="rakam"/>
+            <if expression="rakam == 9">
+                <then>
+                    <output expression="&quot;dokuz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="rakam==8">
+                        <then>
+                            <output expression="&quot;Sekiz&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="rakam==7">
+                                <then>
+                                    <output expression="&quot;yedi&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="rakam==6">
+                                        <then>
+                                            <output expression="&quot;alt&#305;&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="rakam==5">
+                                                <then>
+                                                    <output expression="&quot;be&#351;&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="rakam==4">
+                                                        <then>
+                                                            <output expression="&quot;d&#246;rt&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="rakam==3">
+                                                                <then>
+                                                                    <output expression="&quot;&#252;&#231;&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="rakam==2">
+                                                                        <then>
+                                                                            <output expression="&quot;iki&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="rakam==1">
+                                                                                <then>
+                                                                                    <output expression="&quot;bir&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <output expression="&quot;D&#252;zg&#252;n rakam giriniz&quot;" newline="True"/>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-09 03:02:17 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDI6NTc6MjIgw5bDljszMTMw"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDM6MDI6MTcgw5bDljsyOzMyMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;a say&#305;s&#305; giriniz&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;B say&#305;s&#305; giriniz&quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;C say&#305;s&#305; giriniz&quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="ortalama" expression="(a*b*c)/2"/>
+            <output expression="&quot;a,b,c say&#305;lar&#305;n&#305;n ortalamas&#305;= &quot;&amp; ortalama" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

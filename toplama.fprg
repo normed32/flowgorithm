@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-06 06:35:01 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDY7MDU6Mjc6MDEgw5ZTOzI5OTM="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDY7MDY6MzU6MDEgw5ZTOzE7MzEwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Asay&#305;s&#305;, Bsay&#305;s&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;A say&#305;s&#305;n&#305; gir pi&#231;&quot;" newline="True"/>
+            <input variable="Asay&#305;s&#305;"/>
+            <output expression="&quot;B say&#305;s&#305;n&#305; gir yoksa anan&#305; sikerim&quot;" newline="True"/>
+            <input variable="Bsay&#305;s&#305;"/>
+            <declare name="Toplam" type="Integer" array="False" size=""/>
+            <assign variable="Toplam" expression="Asay&#305;s&#305; + Bsay&#305;s&#305;"/>
+            <output expression="Asay&#305;s&#305; &amp; &quot; &quot;&amp; &quot;ve&quot;&amp; &quot; &quot; &amp; Bsay&#305;s&#305; &amp;&quot; &quot; &amp; &quot;say&#305;lar&#305;n&#305;n toplam&#305;= &quot; &amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

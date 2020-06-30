@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-22 01:05:49 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDE6MTg6NTUgw5bDljszMTI0"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjI7MDE6MDU6NDkgw5ZTOzQ7MzEwNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="adsoyad" type="String" array="False" size=""/>
+            <declare name="vizenotu, finalnotu, no" type="Integer" array="False" size=""/>
+            <declare name="yilsonunotu" type="Real" array="False" size=""/>
+            <output expression="&quot;Ad soyad&quot;" newline="True"/>
+            <input variable="adsoyad"/>
+            <output expression="&quot;Okul no&quot;" newline="True"/>
+            <input variable="no"/>
+            <output expression="&quot;Vize gir&quot;" newline="True"/>
+            <input variable="vizenotu"/>
+            <output expression="&quot;Final gir&quot;" newline="True"/>
+            <input variable="finalnotu"/>
+            <assign variable="yilsonunotu" expression="vizenotu*0.4+finalnotu*0.6"/>
+            <if expression="yilsonunotu&lt;50">
+                <then>
+                    <output expression="adsoyad&amp; &quot; &quot; &amp; &quot;&#304;simli &#214;&#287;renci&quot; &amp; &quot; &quot; &amp; ToFixed(yilsonunotu,2)&amp; &quot; &quot; &amp;  &quot;Ortalamayla dersten kalm&#305;&#351;t&#305;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="yilsonunotu&gt;100">
+                        <then>
+                            <output expression="&quot;Notlar&#305;n&#305;z ge&#231;erli de&#287;il&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="adsoyad&amp; &quot; &quot; &amp; &quot;&#304;simli &#214;&#287;renci&quot; &amp; &quot; &quot; &amp; ToFixed(yilsonunotu,2)&amp; &quot; &quot; &amp;  &quot;Ortalamayla dersten ge&#231;mi&#351;tir&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <if expression="yilsonunotu&lt;50">
+                <then>
+                    <output expression="&quot;FF&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="yilsonunotu&lt;56">
+                        <then>
+                            <output expression="&quot;DD&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="yilsonunotu&lt;61">
+                                <then>
+                                    <output expression="&quot;DC&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="yilsonunotu&lt;71">
+                                        <then>
+                                            <output expression="&quot;CC&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="yilsonunotu&lt;81">
+                                                <then>
+                                                    <output expression="&quot;CB&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="yilsonunotu&lt;86">
+                                                        <then>
+                                                            <output expression="&quot;BB&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="yilsonunotu&lt;91">
+                                                                <then>
+                                                                    <output expression="&quot;BA&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="yilsonunotu&lt;101">
+                                                                        <then>
+                                                                            <output expression="&quot;AA&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

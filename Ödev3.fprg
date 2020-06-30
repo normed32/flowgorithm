@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-09 03:00:23 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDI6NTc6MjIgw5bDljszMTMw"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDM6MDA6MjMgw5bDljsxOzMyMjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="gerilim, direnc, amper" type="Integer" array="False" size=""/>
+            <output expression="&quot;Amper giriniz&quot;" newline="True"/>
+            <input variable="amper"/>
+            <output expression="&quot;Direnc giriniz&quot;" newline="True"/>
+            <input variable="direnc"/>
+            <assign variable="gerilim" expression="amper*direnc"/>
+            <output expression="&quot;Gerilim= &quot; &amp; gerilim" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

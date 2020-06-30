@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 12:47:25 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MTI6MzI6MzAgw5bDljszMTE1"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MTI6NDc6MjUgw5bDljsxOzMyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, toplam" type="Integer" array="False" size=""/>
+            <assign variable="toplam" expression="10"/>
+            <output expression="&quot;Sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="toplam" expression="sayi*toplam"/>
+            <output expression="&quot;Sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="toplam" expression="sayi*toplam"/>
+            <output expression="&quot;Sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="toplam" expression="sayi*toplam"/>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-28 10:50:10 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjg7MTA6NDQ6MTggw5ZTOzMwMDA="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjg7MTA6NTA6MTAgw5ZTOzE7MzA5Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sayi, onlar, y&#252;zler, birler" type="Integer" array="False" size=""/>
+            <output expression="&quot;Sayi giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="y&#252;zler" expression="sayi/100"/>
+            <assign variable="onlar" expression="(sayi-(y&#252;zler*100))/10"/>
+            <assign variable="birler" expression="sayi-(y&#252;zler*100+onlar*10)"/>
+            <if expression="birler=0">
+                <then>
+                    <output expression="&quot;5 e b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="birler=5">
+                        <then>
+                            <output expression="&quot;5 e b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;5 e b&#246;l&#252;nmez&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

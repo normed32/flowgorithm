@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-23 01:04:31 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjM7MTI6NTk6NTEgw5bDljszMTMx"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjM7MDE6MDQ6MzEgw5bDljsxOzMyMjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="b&#246;len, b&#246;l&#252;nen" type="Integer" array="False" size=""/>
+            <input variable="b&#246;l&#252;nen"/>
+            <input variable="b&#246;len"/>
+            <if expression="b&#246;l&#252;nen % b&#246;len = 0">
+                <then>
+                    <output expression="&quot;Tam b&#246;l&#252;n&#252;r&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;B&#246;l&#252;nemz&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

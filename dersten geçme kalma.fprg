@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-13 05:18:23 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTM7MDQ6NTk6MjUgw5ZTOzMwMDE="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTM7MDU6MTg6MjMgw5ZTOzE7MzEwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y1, y2, y3" type="Integer" array="False" size=""/>
+            <declare name="ortalama" type="Real" array="False" size=""/>
+            <output expression="&quot;&#304;lk s&#305;navdan ka&#231; ald&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="y1"/>
+            <output expression="&quot;&#304;kinci s&#305;navdan ka&#231; ald&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="y2"/>
+            <output expression="&quot;&#220;&#231;&#252;nc&#252; s&#305;navdan ka&#231; ald&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="y3"/>
+            <assign variable="ortalama" expression="(y1+y2+y3)/3"/>
+            <if expression="ortalama&lt;50">
+                <then>
+                    <output expression="&quot;Dersten kald&#305;n&#305;z Ortalaman&#305;z= &quot;&amp; ToFixed(ortalama,2)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Dersten ge&#231;tiniz. Ortalaman&#305;z= &quot; &amp; ToFixed(ortalama,2)" newline="False"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-22 12:49:09 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjI7MTI6MzY6NTUgw5ZTOzI5OTg="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjI7MTI6NDk6MDkgw5ZTOzE7MzEwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="delta" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="b*b  -4*a*c"/>
+            <if expression="delta&gt;0">
+                <then>
+                    <output expression="&quot;1inci k&#246;k= &quot; &amp; (-b- sqrt(delta))/2*a" newline="True"/>
+                    <output expression="&quot;2inci k&#246;k= &quot; &amp; (-b+sqrt(delta))/2*a" newline="True"/>
+                </then>
+                <else>
+                    <if expression="delta=0">
+                        <then>
+                            <output expression="&quot;1 ve 2. k&#246;k= &quot; &amp; -b/2*a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Sanal k&#246;k yok&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

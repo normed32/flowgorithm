@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-09 02:48:06 &#214;&#214;"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDg7MTA6MDk6NDQgw5bDljszMTI5"/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMDk7MDI6NDg6MDYgw5bDljsxOzMyNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yar&#305;&#231;ap" type="Integer" array="False" size=""/>
+            <declare name="alan, pisayisi, hacim" type="Real" array="False" size=""/>
+            <assign variable="pisayisi" expression="3.14"/>
+            <output expression="&quot;L&#252;tfen Yar&#305;&#231;ap giriniz&quot;" newline="True"/>
+            <input variable="yar&#305;&#231;ap"/>
+            <assign variable="alan" expression="4*pisayisi*yar&#305;&#231;ap*yar&#305;&#231;ap"/>
+            <assign variable="hacim" expression="(4*pisayisi*yar&#305;&#231;ap*yar&#305;&#231;ap*yar&#305;&#231;ap)/3"/>
+            <output expression="&quot;Yar&#305;&#231;ap&#305;&quot;&amp;&quot; &quot;&amp; yar&#305;&#231;ap&amp; &quot; &quot;&amp; &quot;olan k&#252;renin alan&#305;&quot; &amp; &quot; &quot; &amp; ToFixed(alan,3) &amp; &quot; &quot; &amp; &quot;Hacmi&quot;&amp; &quot; &quot; &amp; ToFixed(hacim,3)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

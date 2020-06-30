@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-28 10:40:22 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjg7MTA6MjM6NTQgw5ZTOzI5OTc="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMjg7MTA6NDA6MjIgw5ZTOzE7MzA5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="birimfiyat, miktar" type="Integer" array="False" size=""/>
+            <declare name="tutar" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen fiyat giriniz&quot;" newline="True"/>
+            <input variable="birimfiyat"/>
+            <output expression="&quot;Ka&#231; tane alacaks&#305;n&#305;z&quot;" newline="True"/>
+            <input variable="miktar"/>
+            <assign variable="tutar" expression="birimfiyat*miktar"/>
+            <if expression="birimfiyat*miktar&gt;1000">
+                <then>
+                    <assign variable="tutar" expression="tutar*85/100"/>
+                    <output expression="tutar" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="tutar" expression="tutar*90/100"/>
+                    <output expression="tutar" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ilgaz"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-06-10 07:33:02 &#214;S"/>
+        <attribute name="created" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDc6Mjg6Mzggw5ZTOzMwMDE="/>
+        <attribute name="edited" value="aWxnYXo7REVTS1RPUC1BOERBOU5HOzIwMjAtMDYtMTA7MDc6MzM6MDIgw5ZTOzE7MzA5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="onlar, birler, yuzler, sayi" type="Integer" array="False" size=""/>
+            <output expression="&quot;3 Basamakl&#305; bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="sayi"/>
+            <assign variable="yuzler" expression="sayi/100"/>
+            <output expression="&quot;Say&#305;n&#305;n y&#252;zler basama&#287;&#305;= &quot; &amp; yuzler" newline="True"/>
+            <assign variable="onlar" expression="(sayi-(yuzler*100))/10"/>
+            <output expression="&quot;Say&#305;n&#305;n onlar basama&#287;&#305;= &quot; &amp; onlar" newline="True"/>
+            <assign variable="birler" expression="sayi-(yuzler*100+onlar*10)"/>
+            <output expression="&quot;Say&#305;n&#305;n birler basama&#287;&#305;= &quot; &amp; birler" newline="True"/>
+            <output expression="&quot;Hanelerinin toplam&#305;= &quot; &amp; onlar + birler + yuzler" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
